@@ -1,13 +1,13 @@
-package com.example.demo;
+package kr.co.dosanet.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class WebServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(WebServiceApplication.class, args);
 	}
 
 }
